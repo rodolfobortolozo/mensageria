@@ -1,0 +1,32 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/msEmail
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  rabbitmq:
+    addresses: amqps://wkwgqfos:iBTpo67CO-5X-_JUSLEzu0NtnJDU1IDL@cow.rmq2.cloudamqp.com/wkwgqfos
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: rodolfobortolozo@gmail.com
+    password: **** **** **** ****
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable : true
+
+broker:
+  queue:
+    email:
+      name: default.email

@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/msUser
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  rabbitmq:
+    addresses: amqps://wkwgqfos:iBTpo67CO-5X-_JUSLEzu0NtnJDU1IDL@cow.rmq2.cloudamqp.com/wkwgqfos
+
+broker:
+  queue:
+    email:
+      name: default.email
