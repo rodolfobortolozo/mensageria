@@ -30,3 +30,12 @@ broker:
   queue:
     email:
       name: default.email
+
+logging:
+  level:
+    br:
+      com:
+        rodolfo:
+          email: TRACE
+    #root: DEBUG
+

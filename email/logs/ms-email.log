@@ -1,0 +1,33 @@
+2023-10-23T23:54:08,470 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023-10-23T23:54:08,501 INFO  br.com.rodolfo.email.EmailApplication - Starting EmailApplication using Java 17.0.8.1 with PID 25020 (D:\Estudos\mensageria\email\target\classes started by rodol in D:\Estudos\mensageria\email)
+2023-10-23T23:54:08,503 DEBUG br.com.rodolfo.email.EmailApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-10-23T23:54:08,503 INFO  br.com.rodolfo.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-23T23:54:08,833 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-23T23:54:08,870 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2023-10-23T23:54:09,200 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-10-23T23:54:09,208 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-23T23:54:09,209 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-23T23:54:09,209 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-23T23:54:09,264 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-23T23:54:09,265 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 737 ms
+2023-10-23T23:54:09,353 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-23T23:54:09,388 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-10-23T23:54:09,389 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2023-10-23T23:54:09,538 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-23T23:54:09,555 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-23T23:54:09,637 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1360972
+2023-10-23T23:54:09,638 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-23T23:54:10,140 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-10-23T23:54:10,162 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-23T23:54:10,358 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-23T23:54:10,684 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2023-10-23T23:54:10,698 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-23T23:54:10,700 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [cow.rmq2.cloudamqp.com:5671]
+2023-10-23T23:54:12,137 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#cad577:0/SimpleConnection@5b3e2 [delegate=amqp://wkwgqfos@18.158.120.35:5671/wkwgqfos, localPort=58045]
+2023-10-23T23:54:13,513 INFO  br.com.rodolfo.email.EmailApplication - Started EmailApplication in 5.298 seconds (process running for 5.722)
+2023-10-23T23:54:37,221 TRACE br.com.rodolfo.email.services.EmailService - TRACE
+2023-10-23T23:54:37,221 DEBUG br.com.rodolfo.email.services.EmailService - DEBUG
+2023-10-23T23:54:37,221 INFO  br.com.rodolfo.email.services.EmailService - INFO
+2023-10-23T23:54:37,221 WARN  br.com.rodolfo.email.services.EmailService - WARN
+2023-10-23T23:54:37,221 ERROR br.com.rodolfo.email.services.EmailService - ERROR
+2023-10-23T23:54:37,221 FATAL br.com.rodolfo.email.services.EmailService - FATAL
